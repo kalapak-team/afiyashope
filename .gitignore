@@ -1,0 +1,39 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+backend/OWNER_CREDENTIALS.txt
+
+# Dependencies and build output
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+dist/
+vendor/
+**/vendor/
+
+# Laravel runtime data
+backend/storage/*.key
+backend/storage/app/public/
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/testing/*
+backend/storage/framework/views/*
+backend/storage/logs/*.log
+backend/bootstrap/cache/*.php
+backend/public/storage
+backend/.phpunit.cache/
+backend/.phpunit.result.cache
+
+# Tests, tooling, editors
+coverage/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
